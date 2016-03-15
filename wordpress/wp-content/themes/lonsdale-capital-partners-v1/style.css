@@ -1,0 +1,20 @@
+/*
+Theme Name: Lonsdale Capital Partners [1.0]
+Theme URI: http://www.lonsdalepartners.com
+Author: Steve Ferrar
+Author URI: http://www.steveferrar.com
+Description: Theme for Lonsdale Capital Partners (2014)
+Version: 1.0
+Tags: Custom Theme, Lonsdale Capital Partners
+*/
+
+
+/* = Get Stylesheets
+-----------------------------------------------*/
+
+/* Boilerplate */
+@import url("css/normalize.css");
+@import url("css/boilerplate.css"); 
+
+/* Custom */
+@import url("css/main.css"); 
