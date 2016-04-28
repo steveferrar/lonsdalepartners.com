@@ -1,0 +1,117 @@
+/* = Team
+-----------------------------------------------*/
+
+
+	/* -- Menu ---------- */
+	.team__menu{
+		background:#000538;
+	}
+
+	@media only screen and (max-width: 519px){
+		.team__menu{
+			min-height:0px;
+		}
+	}
+
+		.team__menu p{
+			color:#49718f;
+		}
+
+		.team__menu ul{
+			list-style:none;
+			margin:-10px auto 10px;
+			padding:0px;
+		}
+
+			.team__menu ul li{
+				margin:2px auto;
+			}
+
+
+	/* -- Archive ---------- */
+	.archive__team{}
+		
+		@media screen and (min-width:992px){
+			.archive__team-content{
+				background:url('../../img/bg--team.png') center 3px repeat-y #FFFFFF;
+			}
+		}
+
+			.archive__team-title{}
+
+			.archive__team-position{
+				margin-top:-10px;
+			}
+
+			.archive__team-readprofile{
+				font-size:11px;
+			}
+
+
+	/* -- Single ---------- */
+	.single__team{}
+
+	@media only screen and (max-width: 519px){
+		.single-team .content__block-info{
+			min-height:0px;
+		}
+	}
+
+		.single__team-title{}
+
+		.single__team-position{
+			margin-top:-10px;
+		}
+
+		.single__team-linkedin{
+			margin-top:20px;
+		}
+
+		.single__team-back{
+			font-size:11px;
+			margin-top:20px;
+		}
+
+	/* Bottom Colour Blocks */
+	@media only screen and (max-width: 991px){
+		.single-team .content__block-info:before{
+			background:#1B5191;
+
+			width:100%;
+			height:10px;
+
+
+			display:block;
+			position:absolute;
+			left:0px;
+			bottom:-10px;
+
+			content:'';
+		}
+	}
+
+	/* Side Colour Blocks */
+	@media only screen and (min-width: 992px){
+		.single-team .content__block-1:before,
+		.single-team .content__block-2:before{
+			background:#1B5191;
+
+			width:10px;
+			height:100%;
+
+
+			display:block;
+			position:absolute;
+			top:0px;
+			left:-10px;
+
+			content:'';
+		}
+	}
+
+	
+
+
+	/* -- No JS ---------- */
+
+	

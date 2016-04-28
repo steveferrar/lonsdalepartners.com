@@ -1,0 +1,94 @@
+/* = Home
+-----------------------------------------------*/
+
+
+ 	.contact-us__block-1{
+ 		background:#4f6aad;
+ 	}
+
+ 	.contact-us__block-2{
+ 		background:#1e90dc;
+ 	}
+
+ 	.contact-us__block-3{
+ 		background:#00cffa;
+ 	}
+
+ 	.contact-us__block-map{
+ 		background:#FCFCFC;
+ 	}
+
+ 	.contact-us__block-form{
+ 		background:#FFFFFF;
+ 	}
+
+ 	.contact-us__block-form .contact__form-left,
+ 	.contact-us__block-form .contact__form-right{
+ 		width:100%;
+ 		height:auto;
+ 		min-height:242px;
+
+ 		display:block;
+ 		position:relative;
+ 		float:left;
+
+ 		margin:0px auto;
+ 		padding:20px;
+ 		border:0px none;
+ 	}
+
+ 	.contact-us__block-form .contact__form-left{
+ 		background:#000538;
+ 		border-bottom:3px solid #FFFFFF;
+ 	}
+
+ 	.contact-us__block-form .contact__form-right{
+ 		background:#004bac;
+ 		border-top:3px solid #FFFFFF;
+ 		border-bottom:3px solid #FFFFFF;
+ 	}
+
+	@media only screen and (min-width: 992px){
+	 	.contact-us__block-form .contact__form-left,
+	 	.contact-us__block-form .contact__form-right{
+	 		width:50%;
+	 		border:0px none;
+	 	}
+
+	 	.contact-us__block-form .contact__form-left{
+	 		border-right:3px solid #FFFFFF;
+	 	}
+
+	 	.contact-us__block-form .contact__form-right{
+	 		border-left:3px solid #FFFFFF;
+	 	}
+	}
+
+ 	.contact-us__block-7{
+ 		background:#2b5298;
+ 	}
+
+ 	.contact-us__block-8{
+ 		background:#0f4866;
+ 	}
+
+
+	/* -- Contact Us ---------- */
+	.contact__form{
+	}
+
+		.contact__form-left{
+		}
+
+		.contact__form-right{
+		}
+
+			.contact__form-right img{
+				width:16px;
+				height:16px;
+			}
+
+
+	/* -- No JS ---------- */
+
+	

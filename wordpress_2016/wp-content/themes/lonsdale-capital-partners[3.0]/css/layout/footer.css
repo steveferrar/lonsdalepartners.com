@@ -1,0 +1,39 @@
+/* = Footer
+-----------------------------------------------*/
+
+footer#footer{
+	width:100%;
+	height:auto;
+	
+	display:block;
+	position:relative;	
+	clear:both;
+
+	color:#00549A;
+	font-size:10px;
+	line-height:12px;
+	
+	margin:20px auto 50px;
+	padding:0px;
+	border:0px none;
+}
+
+@media only screen and (min-width: 992px){
+	footer#footer{
+		margin:70px auto 50px;
+	}
+}
+
+	.footer__copyright{
+	}
+
+	.footer__credit{
+		margin-top:10px;
+	}
+
+	@media only screen and (min-width: 520px){
+		.footer__credit{
+			text-align:right;
+			margin-top:0px;
+		}
+	}

@@ -1,0 +1,133 @@
+/* = Page
+-----------------------------------------------*/
+	
+	/* -- Wrapper ---------- */
+	#page-wrapper{
+		width:100%;
+		height:auto;
+		
+		display:block;
+		position:relative;	
+		clear:both;
+		
+		margin:0px auto;
+		padding:0px;
+		border:0px none;
+	}
+
+	
+	/* -- Section ---------- */
+	section{
+		width:100%;
+		height:auto;
+		
+		display:block;
+		position:relative;	
+		clear:both;
+		
+		margin:0px auto;
+		padding:0px;
+		border:0px none;
+	}
+
+	
+	/* -- Container ---------- */
+	.container{
+		width:248px;
+	}
+
+	@media screen and (min-width:520px){
+		.container{
+			width:496px;
+		}
+	}
+
+	@media screen and (min-width:768px){
+		.container{
+			width:496px;
+		}
+	}
+
+	@media screen and (min-width:992px){
+		.container{
+			width:992px;
+		}
+	}
+
+	@media screen and (min-width:1200px){
+		.container{
+			width:992px;
+		}
+	}
+
+	
+	/* -- Blocks ---------- */
+	
+	/* Standard Block */
+	.block{
+		background:#1B5191;
+		
+		width:100%;
+		height:auto;
+		min-height:242px;
+
+		display:block;
+		position:relative;
+
+		margin:3px auto;
+		padding:0px;
+		border:0px none;
+	}
+
+		.block img{
+			width:auto;
+			max-width:100%;
+			height:auto;
+		}
+	
+
+	/* Padded Block */
+	.block--padding{
+		padding:10px 20px;
+	}
+
+
+	/* Tall Block */
+	.block--tall{
+	}
+
+	@media screen and (min-width:992px){
+		.block--tall{
+			min-height:490px;
+		}
+	}
+
+
+	/* Very Tall Block */
+	@media screen and (min-width:992px){
+		.block--xl-tall{
+			min-height:738px;
+		}
+	}
+
+
+	/* Images */
+	.block--image{
+		background:#FCFCFC;
+	}
+
+		.block--image img{
+			width:100%;
+			max-width:100%;
+			height:auto;
+		}
+
+
+	/* Images */
+	.block--colour{}
+
+		.block--colour img{
+			width:100%;
+			max-width:100%;
+			height:auto;
+		}

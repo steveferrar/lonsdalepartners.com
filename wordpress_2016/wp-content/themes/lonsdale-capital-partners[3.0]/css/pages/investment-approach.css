@@ -1,0 +1,96 @@
+/* = Home
+-----------------------------------------------*/
+
+
+	/* -- Pages ---------- */
+	@media only screen and (max-width: 519px){
+		.investment-approach__menu{
+			min-height:0px;
+		}
+	}
+
+		.investment-approach__menu ul{
+			list-style:none;
+			margin:0px auto 15px;
+			padding:0px;
+		}
+
+			.investment-approach__menu ul li{
+				margin:10px auto;
+				opacity:0.5;
+			}
+
+			.investment-approach__menu ul li.current_page_item{
+				opacity:1.0;
+			}
+
+
+	/* -- Overview ---------- */
+	.page-investment-criteria .content__block-1,
+	.page-investment-criteria .content__block-2,
+	.page-investment-criteria .content__block-3{
+		background:#060551;
+	}
+
+	/* Side Colour Blocks */
+	@media only screen and (min-width: 992px){
+		.page-investment-criteria .content__block-2:before,
+		.page-investment-criteria .content__block-3:before{
+			background:#060551;
+
+			width:10px;
+			height:100%;
+
+
+			display:block;
+			position:absolute;
+			top:0px;
+			left:-10px;
+
+			content:'';
+		}
+	}
+
+
+	/* -- What We Do ---------- */
+	.page-what-we-do .content__block-1{
+		background:#060551;
+	}
+
+
+	/* -- How We Add Value ---------- */
+	.page-how-we-add-value .content__block-1,
+	.page-how-we-add-value .content__block-2,
+	.page-how-we-add-value .content__block-3{
+		background:#559DB8;
+	}
+
+	/* Side Colour Blocks */
+	@media only screen and (min-width: 992px){
+		.page-how-we-add-value .content__block-2:before,
+		.page-how-we-add-value .content__block-3:before{
+			background:#559DB8;
+
+			width:10px;
+			height:100%;
+
+
+			display:block;
+			position:absolute;
+			top:0px;
+			left:-10px;
+
+			content:'';
+		}
+	}
+
+
+	/* -- Where We Are Different ---------- */
+	.page-where-we-are-different .content__block-1{
+		background:#80acf7;
+	}
+
+
+	/* -- No JS ---------- */
+
+	

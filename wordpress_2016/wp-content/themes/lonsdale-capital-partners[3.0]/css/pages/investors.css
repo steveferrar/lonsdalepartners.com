@@ -1,0 +1,47 @@
+/* = Home
+-----------------------------------------------*/
+
+
+	/* -- Login ---------- */
+	#loginform{}
+
+		#loginform p{
+			margin:0px auto;
+		}
+
+
+	/* -- Downloads ---------- */
+
+	.download__item{
+		width:100%;
+		height:auto;
+
+		display:block;
+		position:relative;
+
+		margin:15px auto;
+		padding-top:5px;
+		border-top:1px solid #49839e;
+	}
+
+		.download__item:nth-child(1){
+			border-top:0px none;
+		}
+
+		.download__item-title{
+			font-family:'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;
+		}
+
+		.download__item-description{
+			margin-top:-10px;
+		}
+
+		.download__item-button{
+			font-size:11px;
+			margin-top:-10px;
+		}
+
+
+	/* -- No JS ---------- */
+
+	
