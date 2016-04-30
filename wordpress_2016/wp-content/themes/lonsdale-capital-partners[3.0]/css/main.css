@@ -348,6 +348,10 @@
 		font-weight:normal;
 	}
 	
+	.underline{
+		text-decoration:underline !important;
+	}
+	
 	.uppercase{
 		text-transform:uppercase !important;
 	}

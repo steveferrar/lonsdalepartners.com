@@ -40,7 +40,7 @@ endif;
 
 						<div class="col-xxs-12 col-xs-6 pull-xs-right col-sm-6 pull-sm-right col-md-3 col-lg-3">
 							<div class="block block--image">
-								<img src="<?php echo $portfolio_small_image[0]; ?>" alt="<?php the_title(); ?>" />
+								<img src="<?php echo $portfolio_small_image[0]; ?>" alt="<?php the_title(); ?>" data-no-retina />
 							</div>
 						</div>
 
@@ -60,7 +60,7 @@ endif;
 									<?php endif; ?>
 				                    <?php if(get_field('logo')):
 				                        $logo = wp_get_attachment_image_src(get_field('logo'), 'full' ); ?>
-				                        <img src="<?php echo $logo[0]; ?>" title="<?php the_title(); ?>" class="portfolio__single-image" />
+				                        <img src="<?php echo $logo[0]; ?>" title="<?php the_title(); ?>" class="portfolio__single-image" data-no-retina />
 				                    <?php endif; ?>
 			                    </div>
 
@@ -71,7 +71,7 @@ endif;
 
 						<div class="hidden-xs hidden-sm col-md-6 col-lg-6">
 							<div class="block block--image">
-								<img src="<?php echo $portfolio_large_image[0]; ?>" alt="<?php the_title(); ?>" />
+								<img src="<?php echo $portfolio_large_image[0]; ?>" alt="<?php the_title(); ?>" data-no-retina />
 							</div>
 						</div>
 
@@ -173,7 +173,7 @@ endif;
 
 						<div class="hidden-xxs col-xs-12 col-sm-12 hidden-md hidden-lg">
 							<div class="block block--image">
-								<img src="<?php echo $portfolio_large_image[0]; ?>" alt="<?php the_title(); ?>" />
+								<img src="<?php echo $portfolio_large_image[0]; ?>" alt="<?php the_title(); ?>" data-no-retina />
 							</div>
 						</div>
 

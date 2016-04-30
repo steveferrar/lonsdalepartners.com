@@ -2,6 +2,49 @@
 -----------------------------------------------*/
 
 
+	/* -- Menu ---------- */
+	.portfolio__close{
+		background:#0f1671;
+		min-height:0px;
+		color:#76ACD2;
+	}
+	
+	.portfolio__menu{
+		background:#0f1671;
+	}
+
+	@media only screen and (max-width: 519px){
+		.portfolio__menu{
+			min-height:0px;
+		}
+	}
+
+		.portfolio__menu h2.back{
+			margin-top:20px;
+		}
+
+		.portfolio__menu h3,
+		.portfolio__menu p{
+			color:#76ACD2;
+			margin-top:20px;
+		}
+
+		.portfolio__menu h3{
+			font-size:18px;
+		}
+
+		.portfolio__menu ul{
+			color:#76ACD2;
+			list-style:none;
+			margin:-5px auto 10px;
+			padding:0px;
+		}
+
+			.portfolio__menu ul li{
+				margin:2px auto;
+			}
+
+
 	/* -- Archive ---------- */
 
 

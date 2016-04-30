@@ -79,7 +79,7 @@ endif;
 
 						<div class="col-xxs-12 col-xs-6 col-sm-6 hidden-md hidden-lg">
 							<div class="block block--image">
-								<img src="<?php echo $team_small_image[0]; ?>" alt="<?php the_title(); ?>" />
+								<img src="<?php echo $team_small_image[0]; ?>" alt="<?php the_title(); ?>" data-no-retina />
 							</div>
 						</div>
 
@@ -162,7 +162,7 @@ endif;
 
 						<div class="hidden-xs hidden-sm col-md-12 col-lg-12">
 							<div class="block block--image">
-								<img src="<?php echo $team_large_image[0]; ?>" alt="<?php the_title(); ?>" />
+								<img src="<?php echo $team_large_image[0]; ?>" alt="<?php the_title(); ?>" data-no-retina />
 							</div>
 						</div>
 
@@ -175,13 +175,13 @@ endif;
 
 						<div class="hidden-xs hidden-sm col-md-12 col-lg-12">
 							<div class="block block--image">
-								<img src="<?php echo $team_large_image[0]; ?>" alt="<?php the_title(); ?>" />
+								<img src="<?php echo $team_large_image[0]; ?>" alt="<?php the_title(); ?>" data-no-retina />
 							</div>
 						</div>
 
 						<div class="col-xxs-12 col-xs-6 col-sm-6 hidden-md hidden-lg">
 							<div class="block block--image">
-								<img src="<?php echo $team_small_image[0]; ?>" alt="<?php the_title(); ?>" />
+								<img src="<?php echo $team_small_image[0]; ?>" alt="<?php the_title(); ?>" data-no-retina />
 							</div>
 						</div>
 

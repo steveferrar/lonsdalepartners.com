@@ -17,6 +17,8 @@ class cptPlugins {
 	
 	function cptInit() {			
 		
+
+		// Portfolio
 		register_post_type(
 			'portfolio',
 			array(
@@ -37,10 +39,43 @@ class cptPlugins {
 				'supports' => array(
 					'title',
 					'editor'
-				)
+				),
+				'taxonomies' => array('status','sector','fund')
 			)
-		);	
+		);
+
+			register_taxonomy(
+				'status',
+				'portfolio',
+				array(
+					'label' => __( 'Status' ),
+					'rewrite' => array( 'slug' => 'status' ),
+					'hierarchical' => true,
+				)
+			);
+
+			register_taxonomy(
+				'sector',
+				'portfolio',
+				array(
+					'label' => __( 'Sector' ),
+					'rewrite' => array( 'slug' => 'sector' ),
+					'hierarchical' => true,
+				)
+			);
+
+			register_taxonomy(
+				'fund',
+				'portfolio',
+				array(
+					'label' => __( 'Fund' ),
+					'rewrite' => array( 'slug' => 'fund' ),
+					'hierarchical' => true,
+				)
+			);			
 		
+
+		// News
 		register_post_type(
 			'news',
 			array(
@@ -65,6 +100,8 @@ class cptPlugins {
 			)
 		);				
 		
+
+		// Team
 		register_post_type(
 			'team',
 			array(
@@ -88,6 +125,8 @@ class cptPlugins {
 				)
 			)
 		);
+
+		
 	}
 };
 

@@ -12,7 +12,8 @@ if(is_user_logged_in()):
 	<div class="row">
 
 		<div class="col-xxs-12 hidden-xs hidden-sm col-md-12 col-lg-12">
-			<div class="block block--image">
+			<div class="block blo
+			ck--image">
 				<img src="<?php bloginfo('template_url'); ?>/img/images/investors-02.jpg" data-no-retina />
 			</div>
 		</div>

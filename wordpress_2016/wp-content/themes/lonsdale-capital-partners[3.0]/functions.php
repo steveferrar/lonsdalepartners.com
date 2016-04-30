@@ -172,5 +172,3 @@ function projects_post_count( $query ) {
     }
 }
 add_action( 'pre_get_posts', 'projects_post_count', 1 );
-
-

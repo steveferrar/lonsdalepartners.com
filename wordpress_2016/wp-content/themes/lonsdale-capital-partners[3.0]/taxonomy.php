@@ -1,12 +1,16 @@
 <?php
 /**
-	The template for displaying the PORTFOLIO archive.
+	The template for displaying the PORTFOLIO taxonomies.
 */
 get_header();
 if ( have_posts() ) :
+
+$term =	$wp_query->queried_object;
+echo '<style>body.term-'.$term->slug.' li.term-'.$term->slug.'{ color:#FFFFFF; }</style>';
+
 ?>  
 		
-	<section class="archive archive__portfolio"> 
+	<section class="archive archive__portfolio taxonomy taxonomy__portfolio"> 
 		
 		<div class="container">
 
@@ -14,10 +18,18 @@ if ( have_posts() ) :
 
 
 					<!-- Filter -->
+					<div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
+						<div class="block block--auto block--padding portfolio__close">
+							<p><a href="<?php echo get_post_type_archive_link('portfolio'); ?>"><i class="fa fa-times" aria-hidden="true"></i> Clear All Filters</a></p>
+						</div>
+					</div>
+
 					<div class="hidden-xs hidden-sm col-md-3 col-lg-3">
 						<div class="block block--tall block--padding portfolio__menu">
 
 							<h2>Filter Our Portfolio by Sector</h2>
+							
+							<p><a href="<?php echo get_post_type_archive_link('portfolio'); ?>"><i class="fa fa-times" aria-hidden="true"></i> Clear All Filters</a></p>
 
 							<h3>Status</h3>
 							<?php
@@ -66,7 +78,9 @@ if ( have_posts() ) :
 							    echo $term_list;
 							}
 							?>
-														
+
+							<!--<h2 class="back"><a href="<?php echo get_post_type_archive_link('portfolio'); ?>">All Sectors</a></h2>-->
+				
 						</div>
 					</div>
 
@@ -92,7 +106,7 @@ if ( have_posts() ) :
 
 						<div class="col-xxs-12 col-xs-6<?php if(0 == ($i % 2)) { ?> pull-xs-right<?php }; ?> col-sm-6<?php if(0 == ($i % 2)) { ?> pull-sm-right<?php }; ?> hidden-md hidden-lg">
 							<a class="block block--image" href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
-								<img src="<?php echo $portfolio_image[0]; ?>" alt="<?php the_title(); ?>" data-no-retina />
+								<img src="<?php echo $portfolio_image[0]; ?>" alt="<?php the_title(); ?>" />
 							</a>
 						</div>
 
@@ -112,7 +126,7 @@ if ( have_posts() ) :
 									<?php endif; ?>
 				                    <?php if(get_field('logo')):
 				                        $logo = wp_get_attachment_image_src(get_field('logo'), 'full' ); ?>
-				                        <img src="<?php echo $logo[0]; ?>" title="<?php the_title(); ?>" class="portfolio__single-image" data-no-retina />
+				                        <img src="<?php echo $logo[0]; ?>" title="<?php the_title(); ?>" class="portfolio__single-image" />
 				                    <?php endif; ?>
 			                    </div>
 
