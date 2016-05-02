@@ -8,7 +8,7 @@ header#header{
 	position:relative;	
 	clear:both;
 	
-	margin:60px auto 20px;
+	margin:50px auto 20px;
 	padding:0px;
 	border:0px none;
 }
@@ -163,7 +163,7 @@ header#header{
 		text-align:center;
 		
 		margin:0px auto;
-		padding:45px 0px 20px;
+		padding:35px 0px 20px;
 	}
 
 		.mobile__logo a,
@@ -287,75 +287,76 @@ header#header{
 	top:15px;
 
 	margin:0px 0px 0px -16px;
-	padding:0px;
+	padding:5px;
 	border:0px none;
 }
 
 	#nav-icon {
-	  width: 32px;
-	  height: 32px;
-	  position: relative;
-	  margin:0px auto;
+		width: 22px;
+		height: 22px;
 
-	  -webkit-transform: rotate(0deg);
-	  -moz-transform: rotate(0deg);
-	  -o-transform: rotate(0deg);
-	  transform: rotate(0deg);
+		position: relative;
+		margin:0px auto;
 
-	  -webkit-transition: .5s ease-in-out;
-	  -moz-transition: .5s ease-in-out;
-	  -o-transition: .5s ease-in-out;
-	  transition: .5s ease-in-out;
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
 
-	  cursor: pointer;
+		-webkit-transition: .5s ease-in-out;
+		-moz-transition: .5s ease-in-out;
+		-o-transition: .5s ease-in-out;
+		transition: .5s ease-in-out;
+
+		cursor: pointer;
 	}
 
 		#nav-icon span {
-		  background:#1E3264;
+			background:#1E3264;
 
-		  width:100%;
-		  height:4px;
+			width:100%;
+			height:3px;
 
-		  display:block;
-		  position:absolute;
-		  left:0;
+			display:block;
+			position:absolute;
+			left:0;
 
-		  border-radius:1px;
-		  opacity:1;
+			border-radius:1px;
+			opacity:1;
 
-		  -webkit-transform: rotate(0deg);
-		  -moz-transform: rotate(0deg);
-		  -o-transform: rotate(0deg);
-		  transform: rotate(0deg);
+			-webkit-transform: rotate(0deg);
+			-moz-transform: rotate(0deg);
+			-o-transform: rotate(0deg);
+			transform: rotate(0deg);
 
-		  -webkit-transition: .25s ease-in-out;
-		  -moz-transition: .25s ease-in-out;
-		  -o-transition: .25s ease-in-out;
-		  transition: .25s ease-in-out;
+			-webkit-transition: .25s ease-in-out;
+			-moz-transition: .25s ease-in-out;
+			-o-transition: .25s ease-in-out;
+			transition: .25s ease-in-out;
 		}
 
 		#nav-icon span:nth-child(1) {
-		  top: 4px;
-		  -webkit-transform-origin: left center;
-		  -moz-transform-origin: left center;
-		  -o-transform-origin: left center;
-		  transform-origin: left center;
+			top: 3px;
+			-webkit-transform-origin: left center;
+			-moz-transform-origin: left center;
+			-o-transform-origin: left center;
+			transform-origin: left center;
 		}
 
 		#nav-icon span:nth-child(2) {
-		  top: 14px;
-		  -webkit-transform-origin: left center;
-		  -moz-transform-origin: left center;
-		  -o-transform-origin: left center;
-		  transform-origin: left center;
+			top: 10px;
+			-webkit-transform-origin: left center;
+			-moz-transform-origin: left center;
+			-o-transform-origin: left center;
+			transform-origin: left center;
 		}
 
 		#nav-icon span:nth-child(3) {
-		  top: 24px;
-		  -webkit-transform-origin: left center;
-		  -moz-transform-origin: left center;
-		  -o-transform-origin: left center;
-		  transform-origin: left center;
+			top: 17px;
+			-webkit-transform-origin: left center;
+			-moz-transform-origin: left center;
+			-o-transform-origin: left center;
+			transform-origin: left center;
 		}
 
 	#nav-icon.open{}
@@ -364,26 +365,26 @@ header#header{
 		}
 
 		#nav-icon.open span:nth-child(1) {
-		  -webkit-transform: rotate(45deg);
-		  -moz-transform: rotate(45deg);
-		  -o-transform: rotate(45deg);
-		  transform: rotate(45deg);
-		  top: 3px;
-		  left: 5px;
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+			top:3px;
+			left:4px;
 		}
 
 		#nav-icon.open span:nth-child(2) {
-		  width: 0%;
-		  opacity: 0;
+			width: 0%;
+			opacity: 0;
 		}
 
 		#nav-icon.open span:nth-child(3) {
-		  -webkit-transform: rotate(-45deg);
-		  -moz-transform: rotate(-45deg);
-		  -o-transform: rotate(-45deg);
-		  transform: rotate(-45deg);
-		  top: 26px;
-		  left: 5px;
+			-webkit-transform: rotate(-45deg);
+			-moz-transform: rotate(-45deg);
+			-o-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+			top:18px;
+			left:4px;
 		}
 
 

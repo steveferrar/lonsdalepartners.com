@@ -43,8 +43,8 @@
 		.container{
 			width:496px;
 			max-width:none;
-			padding-left:0px;
-			padding-right:0px;
+			padding-left:3px;
+			padding-right:3px;
 		}
 	}
 
@@ -85,12 +85,6 @@
 	}
 
 	@media screen and (min-width:520px){
-		.block{
-			min-height:245px;
-		}
-	}
-
-	@media screen and (min-width:992px){
 		.block{
 			min-height:242px;
 		}
