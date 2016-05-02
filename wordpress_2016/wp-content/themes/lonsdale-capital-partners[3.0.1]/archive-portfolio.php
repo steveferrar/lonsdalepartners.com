@@ -10,7 +10,7 @@ if ( have_posts() ) :
 		
 		<div class="container">
 
-			<div class="row">
+			<div class="row porfolio__row">
 
 
 					<!-- Filter -->
@@ -90,7 +90,7 @@ if ( have_posts() ) :
 					endif;
 					?>
 
-						<div class="col-xxs-12 col-xs-6<?php if(0 == ($i % 2)) { ?> pull-xs-right<?php }; ?> col-sm-6<?php if(0 == ($i % 2)) { ?> pull-sm-right<?php }; ?> hidden-md hidden-lg">
+						<div class="col-xxs-12 col-xs-6<?php if(0 == ($i % 2)) { ?> pull-xs-right<?php }; ?> col-sm-6<?php if(0 == ($i % 2)) { ?> pull-sm-right<?php }; ?> hidden-md hidden-lg portfolio__image">
 							<a class="block block--image" href="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>">
 								<img src="<?php echo $portfolio_image[0]; ?>" alt="<?php the_title(); ?>" data-no-retina />
 							</a>

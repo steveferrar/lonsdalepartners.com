@@ -51,12 +51,6 @@
 	/* -- Single ---------- */
 	.portfolio__single{}
 
-	@media only screen and (max-width: 519px){
-		.single-portfolio .content__block-info{
-			min-height:0px;
-		}
-	}
-
 		.portfolio__single-information{}
 
 			.portfolio__single-information p{
@@ -70,10 +64,14 @@
 
 		.portfolio__single-back{
 			margin-top:15px;
-			margin-bottom:0px;
 			font-size:11px;
 		}
 
+		@media only screen and (min-width: 520px){
+			.portfolio__single-back{
+			margin-bottom:0px;
+			}
+		}
 
 	.single-portfolio .content__blocks{}
 

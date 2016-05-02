@@ -33,12 +33,18 @@
 	
 	/* -- Container ---------- */
 	.container{
-		width:248px;
+		width:100%;
+		max-width:444px;
+		padding-left:15px;
+		padding-right:15px;
 	}
 
 	@media screen and (min-width:520px){
 		.container{
 			width:496px;
+			max-width:none;
+			padding-left:0px;
+			padding-right:0px;
 		}
 	}
 
@@ -69,7 +75,6 @@
 		
 		width:100%;
 		height:auto;
-		min-height:242px;
 
 		display:block;
 		position:relative;
@@ -77,6 +82,18 @@
 		margin:3px auto;
 		padding:0px;
 		border:0px none;
+	}
+
+	@media screen and (min-width:520px){
+		.block{
+			min-height:245px;
+		}
+	}
+
+	@media screen and (min-width:992px){
+		.block{
+			min-height:242px;
+		}
 	}
 
 		.block img{

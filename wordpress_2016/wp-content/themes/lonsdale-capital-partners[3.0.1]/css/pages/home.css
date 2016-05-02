@@ -13,7 +13,7 @@
 
 		opacity:1.0;
 		
-		color:#00549A;
+		color:#00549A !important;
 	}
 
 
@@ -27,8 +27,8 @@
 
 		/* Overlay */
 		.home__block--image .home__block--overlay{
-			width:242px;
-			height:242px;
+			width:100%;
+			height:245px;
 
 			display:block;
 			position:absolute;
@@ -42,9 +42,9 @@
 		}
 
 			.home__block--image .home__block--overlay div{
-				background:rgba(255,255,255,0.9);
+				background:rgba(255,255,255,0.75);
 
-				width:242px;
+				width:100%;
 				height:auto;
 
 				position:absolute;
@@ -55,11 +55,15 @@
 				padding:10px 20px;
 				border:0px none;
 			}
+			
+			html.no-touch .home__block--image .home__block--overlay div{
+				background:rgba(255,255,255,0.9);
+			}
 
 
 		/* No Touch */
 		html.no-touch .home__block--image .home__block--overlay{
-			bottom:-242px;
+			bottom:-245px;
 
 			-moz-transform: translateY(0px);
 			-webkit-transform: translateY(0px);
@@ -94,13 +98,21 @@
 
 
 	/* Text Block */
-	.home__block--text{
+	@media only screen and (min-width:520px){
+		.home__block--text{
+			min-height:245px;
+		}
 	}
-
 		.home__block--text p{
-			color:#FFFFFF;
-			font-size: 24px;
-			line-height: 26px;
+			font-size: 18px;
+			line-height: 20px;
+		}
+
+		@media only screen and (min-width:520px){
+			.home__block--text p{
+				font-size: 24px;
+				line-height: 26px;
+			}
 		}
 
 

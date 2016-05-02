@@ -17,6 +17,7 @@
 			<div class="col-xxs-12 col-xs-12 col-sm-12 hidden-md hidden-lg">
 				<p>Lonsdale Capital Partners LLP,<br />21 Upper Brook Street,<br />London, W1K 7PY</p>
 			</div>
+			<div class="clearfix"></div>
 		</div>
 	</div>
 

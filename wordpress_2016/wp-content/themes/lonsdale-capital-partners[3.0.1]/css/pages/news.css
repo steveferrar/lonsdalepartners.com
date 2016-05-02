@@ -30,8 +30,14 @@
 
 			.news__archive-readmore{
 				font-size:11px;
-				margin-bottom:0px;
 			}
+
+			@media only screen and (min-width: 520px){
+				.news__archive-readmore{
+					margin-bottom:0px;
+				}
+			}
+
 	
 
 	/* -- Single ---------- */
