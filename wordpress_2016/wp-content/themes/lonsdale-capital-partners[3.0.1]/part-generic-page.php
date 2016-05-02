@@ -27,7 +27,7 @@
 
 <!-- Content -->
 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-	<div class="block block--tall">
+	<div class="block block--tall block--padding">
 		<h2><?php the_title(); ?></h2>
 		<?php the_content(); ?>
 	</div>

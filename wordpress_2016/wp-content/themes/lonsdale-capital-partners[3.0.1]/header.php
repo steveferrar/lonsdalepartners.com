@@ -1,6 +1,6 @@
 <?php
 /**
-	The template for displaying the HEADER until <div id="page-wrapper">
+	The template for displaying the HEADER until after <div id="page-wrapper">
 */
 ?>
 
@@ -145,11 +145,60 @@
 	
 					<div class="col-xs-12 col-xs-12 col-lg-12 col-sm-12">
 
-						<?php if(get_field('page_heading')): ?>
-							<h1><?php echo get_field('page_heading'); ?></h1>
-						<?php else: ?>
-							<h1>Lonsdale Capital Partners is an experienced &amp; hands on private equity company concentrating on the smaller end of the market.</h1>
-						<?php endif; ?>
+
+						<?php
+
+						// Portfolio Archive
+						if( is_post_type_archive('portfolio') ):
+
+							if(get_field('page_heading')):
+								echo '<h1>' . get_field('page_heading') . '</h1>';
+							else:
+								echo '<h1>We work closely with management, having our Partners <br />actively involved at Board level &amp; investing personally.</h1>';
+							endif;
+
+						// Portfolio Single
+						elseif( is_singular('portfolio') ):
+
+							if(get_field('page_heading')):
+								echo '<h1>' . get_field('page_heading') . '</h1>';
+							else:
+								echo '<h1>For us adding value is all about partnership. Our interest is to use our experience &amp; network to work with management teams.</h1>';
+							endif;
+
+						// News Archive / Single
+						elseif(( is_post_type_archive('news') || is_singular('news') )):
+
+							if(get_field('page_heading')):
+								echo '<h1>' . get_field('page_heading') . '</h1>';
+							else:
+								echo '<h1>For us adding value is all about partnership. Our interest is to use our experience &amp; network to work with management teams.</h1>';
+							endif;
+
+						// Team Archive / Single
+						elseif(( is_post_type_archive('team') || is_singular('team') )):
+
+							if(get_field('page_heading')):
+								echo '<h1>' . get_field('page_heading') . '</h1>';
+							elseif(get_field('page_heading', 9)):
+								echo '<h1>' . get_field('page_heading', 9) . '</h1>';
+							else:
+								echo '<h1>The team comprises three founders - Alan Dargan, Ross Finegan &amp; David Gasparro - a team with complementary skill sets.</h1>';
+							endif;
+
+						// All Other Pages
+						else:
+
+							if(get_field('page_heading')):
+								echo '<h1>' . get_field('page_heading') . '</h1>';
+							else:
+								echo '<h1>Lonsdale Capital Partners is an experienced &amp; hands on private equity company concentrating on the smaller end of the market.</h1>';
+							endif;
+
+						endif;
+
+						?>
+
 					</div>
 				
 				</div>

@@ -65,11 +65,16 @@
 		.portfolio__single-back{
 			margin-top:15px;
 			font-size:11px;
+				margin-bottom:-10px;
 		}
 
+		.portfolio__archive-back{
+			margin-top:15px;
+			font-size:11px;
+		}
 		@media only screen and (min-width: 520px){
-			.portfolio__single-back{
-			margin-bottom:0px;
+			.portfolio__archive-back{
+				margin-bottom:0px;
 			}
 		}
 

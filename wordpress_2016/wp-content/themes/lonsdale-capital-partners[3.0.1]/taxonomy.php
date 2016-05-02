@@ -18,13 +18,15 @@ echo '<style>body.term-'.$term->slug.' li.term-'.$term->slug.'{ color:#FFFFFF; }
 
 
 					<!-- Filter -->
+					<?php /*
 					<div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
 						<div class="block block--auto block--padding portfolio__close">
 							<p><a href="<?php echo get_post_type_archive_link('portfolio'); ?>"><i class="fa fa-times" aria-hidden="true"></i> Clear All Filters</a></p>
 						</div>
 					</div>
+					*/ ?>
 
-					<div class="hidden-xs hidden-sm col-md-3 col-lg-3">
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 						<div class="block block--tall block--padding portfolio__menu">
 
 							<h2>Filter Our Portfolio by Sector</h2>
@@ -130,7 +132,7 @@ echo '<style>body.term-'.$term->slug.' li.term-'.$term->slug.'{ color:#FFFFFF; }
 				                    <?php endif; ?>
 			                    </div>
 
-								<p class="portfolio__single-back">Read More &rsaquo;</p>
+								<p class="portfolio__archive-back">Read More &rsaquo;</p>
 
 							</a>
 						</div>

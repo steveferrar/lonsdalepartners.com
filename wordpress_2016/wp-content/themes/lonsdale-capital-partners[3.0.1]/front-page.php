@@ -74,10 +74,10 @@ get_header();
 				<div class="row">
 						
 
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3 col-lg-3">
 					<div class="row">
 
-						<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 							<a href="<?php echo $image_blocks_1_link; ?>" class="block block--image home__block--image js-home-block">
 								<img src="<?php echo $image_blocks_1_image[0]; ?>" data-no-retina />
 								<div class="home__block--overlay">
@@ -89,21 +89,27 @@ get_header();
 								</div>
 							</a>
 						</div>
-
-						<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 							<div class="block block--padding home__block--text content__block-1">
 								<?php echo $text_blocks_1_text; ?>
 							</div>
 						</div>
-						
+							
 					</div>
 					</div>
 						
 
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3 col-lg-3">
 					<div class="row">
 
-						<div class="col-xxs-12 col-xs-6 pull-xs-right col-sm-6 pull-sm-right col-md-6 col-lg-6">
+						<div class="hidden-xxs col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="block block--padding home__block--text content__block-2">
+								<?php echo $text_blocks_2_text; ?>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 							<a href="<?php echo $image_blocks_2_link; ?>" class="block block--image home__block--image js-home-block">
 								<img src="<?php echo $image_blocks_2_image[0]; ?>" data-no-retina />
 								<div class="home__block--overlay">
@@ -116,7 +122,7 @@ get_header();
 							</a>
 						</div>
 
-						<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<div class="col-xxs-12 hidden-xs hidden-sm hidden-md hidden-lg">
 							<div class="block block--padding home__block--text content__block-2">
 								<?php echo $text_blocks_2_text; ?>
 							</div>
@@ -126,10 +132,10 @@ get_header();
 					</div>
 						
 
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3 col-lg-3">
 					<div class="row">
 
-						<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 pull-md-right col-lg-6 pull-lg-right">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 							<a href="<?php echo $image_blocks_3_link; ?>" class="block block--image home__block--image js-home-block">
 								<img src="<?php echo $image_blocks_3_image[0]; ?>" data-no-retina />
 								<div class="home__block--overlay">
@@ -142,7 +148,7 @@ get_header();
 							</a>
 						</div>
 
-						<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 							<div class="block block--padding home__block--text content__block-3">
 								<?php echo $text_blocks_3_text; ?>
 							</div>
@@ -152,10 +158,16 @@ get_header();
 					</div>
 						
 
-					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+					<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-3 col-lg-3">
 					<div class="row">
 
-						<div class="col-xxs-12 col-xs-6 pull-xs-right col-sm-6 pull-sm-right col-md-6 pull-md-right col-lg-6 pull-lg-right">
+						<div class="hidden-xxs col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="block block--padding home__block--text content__block-4">
+								<?php echo $text_blocks_4_text; ?>
+							</div>
+						</div>
+
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 							<a href="<?php echo $image_blocks_4_link; ?>" class="block block--image home__block--image js-home-block">
 								<img src="<?php echo $image_blocks_4_image[0]; ?>" data-no-retina />
 								<div class="home__block--overlay">
@@ -168,13 +180,12 @@ get_header();
 							</a>
 						</div>
 
-						<div class="col-xxs-12 col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<div class="col-xxs-12 hidden-xs hidden-sm hidden-md hidden-lg">
 							<div class="block block--padding home__block--text content__block-4">
 								<?php echo $text_blocks_4_text; ?>
 							</div>
 						</div>
-						
-						
+							
 					</div>
 					</div>
 

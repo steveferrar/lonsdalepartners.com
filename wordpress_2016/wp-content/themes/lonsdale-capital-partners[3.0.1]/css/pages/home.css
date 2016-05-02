@@ -107,19 +107,19 @@
 
 
 		.page-home .content__block-1{
-			background:#75ACD1;
-		}
-
-		.page-home .content__block-2{
-			background:#0F4866;
-		}
-
-		.page-home .content__block-3{
 			background:#0F1671;
 		}
 
-		.page-home .content__block-4{
+		.page-home .content__block-2{
+			background:#75ACD1;
+		}
+
+		.page-home .content__block-3{
 			background:#2B5295;
+		}
+
+		.page-home .content__block-4{
+			background:#0F4866;
 		}
 
 

@@ -81,6 +81,7 @@
 			width:100% !important;
 			clear:both !important;
 			display:block !important;
+			padding-top:1px;
 		    padding-left: 3px;
 		    padding-right: 3px;
 		}

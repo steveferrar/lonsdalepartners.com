@@ -14,7 +14,7 @@ if ( have_posts() ) :
 
 
 					<!-- Filter -->
-					<div class="hidden-xs hidden-sm col-md-3 col-lg-3">
+					<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
 						<div class="block block--tall block--padding portfolio__menu">
 
 							<h2>Filter Our Portfolio by Sector</h2>
@@ -116,7 +116,7 @@ if ( have_posts() ) :
 				                    <?php endif; ?>
 			                    </div>
 
-								<p class="portfolio__single-back">Read More &rsaquo;</p>
+								<p class="portfolio__archive-back">Read More &rsaquo;</p>
 
 							</a>
 						</div>
