@@ -156,15 +156,15 @@ body.login div#login h1 a {}
 	}	
 	
 	.login h1 a {
-		background-image: url(../img/logo-login.png);
+		background-image: url(../img/lonsdale-capital-partners.png);
 		
-		width: 326px;
-		height: 108px;
+		width: 310px;
+		height: 29px;
 		
 		background-position: center top;
 		background-repeat: no-repeat;
-		background-size: 170px 108px;
-		padding-bottom:12px;
+		background-size:280px 29px;
+		padding-bottom:0px;
 	}
 
 	body.login div#login form#loginform {
