@@ -44,10 +44,18 @@ $(document).ready(function(){
 	// ---------------------------------------------
 
 
+	// Main Mobile Navigation
 	$('#nav-icon').click(function(){
 		$(this).toggleClass('open');
 		$('body').toggleClass('js-stopScrolling');
 		$('.js-mobile-menu').stop().slideToggle('fast');
+	});
+
+
+	// Portfolio Filters
+	$('.js-portfolio-button').click(function(){
+		$(this).toggleClass('active');
+		$(this).next('.js-portfolio-menu').stop().slideToggle('fast');
 	});
 
 

@@ -4,21 +4,22 @@
 */
 
 
-// Custom Login Stylesheet	
-	function my_login_stylesheet() { ?>
-		<link rel="stylesheet" id="custom_wp_admin_css"	 href="<?php echo get_bloginfo( 'stylesheet_directory' ) . '/css/style-login.css'; ?>" type="text/css" media="all" />
-	<?php };
+// Custom Login Stylesheet
+	function my_login_stylesheet() {
+		echo '<link rel="stylesheet" id="custom_wp_admin_css" href="' . get_bloginfo( 'stylesheet_directory' ) . '/css/style-login.css" type="text/css" media="all" />';
+	};
+	add_action('login_enqueue_scripts', 'my_login_stylesheet' );
 		
-// Custom Login Logo URL	
+// Custom Login Logo URL
 	function my_login_logo_url() {
 		return get_bloginfo( 'url' );
 	};
-	add_action('login_enqueue_scripts', 'my_login_stylesheet' );
+	add_filter('login_headerurl', 'my_login_logo_url');
 	
+// Custom Login Title
 	function my_login_logo_url_title() {
 		return 'Lonsdale Capital Partners';
 	};
-	add_filter('login_headerurl', 'my_login_logo_url');
 	add_filter('login_headertitle', 'my_login_logo_url_title');
 
 

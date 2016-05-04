@@ -75,7 +75,7 @@ if ( have_posts() ) :
 						endif;
 						?>
 
-							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 archive__team-info">
 							<div class="row">
 
 								<div class="col-xxs-12 col-xs-6<?php if(0 == ($i % 2)) { ?> pull-xs-right<?php }; ?> col-sm-6<?php if(0 == ($i % 2)) { ?> pull-sm-right<?php }; ?> col-md-12 col-lg-12">

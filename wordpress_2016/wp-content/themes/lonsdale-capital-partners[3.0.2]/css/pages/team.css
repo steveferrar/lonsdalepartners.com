@@ -35,17 +35,45 @@
 			.archive__team-content{
 				background:url('../../img/bg--team.png') center 3px repeat-y #FFFFFF;
 			}
+			
+			.archive__team-content:before,
+			.archive__team-content:after{
+				background:#FFFFFF;
+
+				width:100%;
+				height:3px;
+
+				display:block;
+				position:absolute;
+				top:0px;
+				left:0px;
+
+				margin:0px auto;
+				padding:0px;
+				border:0px none;
+
+				content:'';
+			}
+
+			.archive__team-content:after{
+				top:auto;
+				bottom:0px;
+			}
 		}
 
-			.archive__team-title{}
-
-			.archive__team-position{
-				margin-top:-10px;
+			.archive__team-info{
+				background:#FFFFFF;
 			}
 
-			.archive__team-readprofile{
-				font-size:11px;
-			}
+				.archive__team-title{}
+
+				.archive__team-position{
+					margin-top:-10px;
+				}
+
+				.archive__team-readprofile{
+					font-size:11px;
+				}
 
 
 	/* -- Single ---------- */
