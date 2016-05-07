@@ -1,0 +1,29 @@
+/*the ajax loading icon*/
+.umloading {}
+/*the form div*/
+#uwpqsf_id{}
+/*Form title*/
+.uform_title{}
+.uwpqsf_class{}
+/*label for each field*/
+.uwpqsf_class > span[class*='taxolabel-'], .uwpqsf_class > span[class*='cmflabel-']{}
+/*dropdown*/
+.uwpqsf_class select {}
+
+/*taxonomy and meta field radio OPTIONS*/
+.uwpqsf_class > label{}
+/*Checkboxes*/
+[class*='tax-check-'] label,
+[class*='cmf-check-'] label {}
+
+/*search button*/
+.uwpqsf_submit{}
+/*keyword search label*/
+.uwpqsf_class-keyword{}
+/*text input for keyword*/
+input#uwpqsf_id_key{}
+
+/*Pagination*/
+.uwpqsfpagi{}
+a.upagievent{}
+span.upagicurrent{}

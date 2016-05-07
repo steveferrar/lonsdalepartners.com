@@ -1,0 +1,38 @@
+/*
+Theme Name: Lonsdale Capital Partners [3.0.3]
+Theme URI: http://www.lonsdalepartners.com
+Author: Steve Ferrar
+Author URI: http://www.steveferrar.com
+Description: Theme for Rivington Street Studio (April 2016)
+Version: 3.0.2
+Tags: Custom Theme, Bootstrap, Boilerplate, Rivington Street Studio, Steve Ferrar, Mark Caylor, iMark Creative
+Updates: Addition of JS based filter
+*/
+
+
+/* = Get Stylesheets
+-----------------------------------------------*/
+
+/* Bootstrap */
+@import url("css/vendor/bootstrap.min.css");
+
+
+/* Custom */
+@import url("css/main.css");
+	
+@import url("css/layout/header.css");
+@import url("css/layout/layout.css");
+@import url("css/layout/footer.css");
+
+@import url("css/pages/home.css");
+@import url("css/pages/investment-approach.css");
+@import url("css/pages/team.css");
+@import url("css/pages/portfolio.css");
+@import url("css/pages/news.css");
+@import url("css/pages/investors.css");
+@import url("css/pages/contact-us.css");
+
+
+/* Fonts */
+@import url("fonts/gotham/gotham.css");
+@import url("fonts/font-awesome-4.5.0/css/font-awesome.min.css");
