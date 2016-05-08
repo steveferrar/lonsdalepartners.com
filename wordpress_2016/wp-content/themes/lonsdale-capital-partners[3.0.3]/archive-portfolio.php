@@ -32,7 +32,7 @@ if ( have_posts() ) :
 					<!-- Portfolio Items -->
 					<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 
-						<div class="row js-filter">
+						<div class="row js-filter archive__portfolio-items">
 
 							<?php
 							$i = 1;	

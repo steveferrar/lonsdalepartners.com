@@ -29,7 +29,7 @@
 
 			.portfolio__filter #uwpqsf_id form{
 				width:100%;
-				height:110px;
+				height:auto;
 
 				display:block;
 				position:relative;
@@ -37,7 +37,7 @@
 
 				color:#222222;
 
-				margin:30px auto 0px;
+				margin:0px auto;
 				padding:0px;
 				border:0px none;
 			}
@@ -46,43 +46,21 @@
 					background:#FFFFFF;
 
 					width:100%;
-					height:30px;
+					height:auto;
 
 					display:block;
-					position:absolute;
+					position:relative;
 					clear:both;
-					top:0px;
-					left:0px;
 					z-index:0;
 
-					margin:0px auto;
+					margin:20px auto 0px;
 					padding:0px;
 					border:0px none;
-
-					overflow:hidden;
-
-					opacity:0.75;
-				}
-
-				.portfolio__filter #uwpqsf_id form .uwpqsf_class:hover{
-					opacity:1.0;
-				}
-
-				.portfolio__filter #uwpqsf_id form .uwpqsf_class#tax-check-0{
-				}
-
-				.portfolio__filter #uwpqsf_id form .uwpqsf_class#tax-check-1{
-					top:40px;
-				}
-
-				.portfolio__filter #uwpqsf_id form .uwpqsf_class#tax-check-2{
-					top:80px;
 				}
 
 				.portfolio__filter #uwpqsf_id form .uwpqsf_class.active{
 					height:auto;
 					z-index:10;
-					opacity:1.0;
 
 					-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.20);
 					-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.20);
@@ -132,7 +110,7 @@
 						width:100%;
 						height:auto;
 
-						display:block;
+						display:none;
 						position:relative;
 						clear:both;
 
@@ -141,6 +119,11 @@
 						border:0px none;
 
 						cursor:pointer;
+					}
+
+					.portfolio__filter #uwpqsf_id form .uwpqsf_class.active label,
+					.portfolio__filter #uwpqsf_id form .uwpqsf_class label.active{
+						display:block;
 					}
 
 					.portfolio__filter #uwpqsf_id form .uwpqsf_class label.active,
@@ -186,19 +169,27 @@
 
 		/* Preload */
 		.umloading {
-			background:url('../../img/ajax-loader.gif') center center no-repeat;
+			background:url('../../img/ajax-loader.gif') center center no-repeat #1B5191;
+			background-size:16px 16px;
 			
-			width:32px;
+			width:100%;
 			height:32px;
 
 			display:block;
 			position:absolute;
 			top:23px;
-			left:23px;
+			left:0px;
 
 			margin:0px auto;
 			padding:0px;
 			border:0px none;
+		}
+
+		@media screen and (min-width:992px){
+			.umloading {
+				width:16px;
+				left:23px;
+			}
 		}
 
 		/* Clear Link */
@@ -210,6 +201,11 @@
 				font-size:11px;
 				text-decoration:underline;
 			}
+
+		/* Item Container */
+		.archive__portfolio-items{
+			min-height:42px;
+		}
 
 
 

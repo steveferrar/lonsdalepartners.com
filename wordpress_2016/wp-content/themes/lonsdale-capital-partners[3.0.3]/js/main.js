@@ -102,22 +102,6 @@ $(document).ready(function(){
 	$('.uwpqsf_class label').click(function(){
 		if($(this).parent().hasClass('active')){
 			$('.uwpqsf_class').removeClass('active');
-		} else {
-			if($(this).hasClass('active')){
-				$(this).removeClass('active');
-			} else {
-				$(this).addClass('active');
-			}
-		}
-		
-		// var thisID = $(this).children('input').attr('id');
-		// console.log(thisID);
-		
-		// Show clear link
-		if($('.uwpqsf_class label').hasClass('active')){
-			$('.js-filter-clear').show();
-		} else {
-			$('.js-filter-clear').hide();
 		}
 	});
 

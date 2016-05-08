@@ -25,6 +25,12 @@ jQuery(document).ready(function($) {
 		  }
 		});
 		
+// ****										 				**** //
+// ****										 				**** //
+// **** 8 May 2015: Toggle class "active" on label on click **** //
+// ****										 				**** //
+// ****										 				**** //
+
 		window.process_data = function ($obj) {
 			var ajxdiv = $obj.closest("form").find("#uajaxdiv").val();	
 			var res = {loader:$('<div />',{'class':'umloading'}),container : $(''+ajxdiv+'')};
@@ -36,14 +42,20 @@ jQuery(document).ready(function($) {
 				 type: 'POST',	 
 				 url: ajax.url,
 				 data: ({action : 'uwpqsf_ajax',getdata:getdata, pagenum:pagenum }),
-				 beforeSend:function() {$(''+ajxdiv+'').empty();res.container.append(res.loader);$obj.closest("form").find('input, textarea, button, select').attr("disabled", true);},
+				 beforeSend:function() {
+				 	$(''+ajxdiv+'').empty();res.container.append(res.loader);
+				 	$obj.closest("form").find('input, textarea, button, select').attr("disabled", true);
+					// console.log(formid + ' START');
+					$obj.parent('label').toggleClass('active');
+				 },
 				 success: function(html) {
 					res.container.find(res.loader).remove();
-				  $(''+ajxdiv+'').html(html);
-				  $obj.closest("form").find('input, textarea, button, select').attr("disabled", false);
-				
-				 }
-				 });
+					$(''+ajxdiv+'').html(html);
+					$obj.closest("form").find('input, textarea, button, select').attr("disabled", false);
+					// console.log(formid + ' END');
+					// $obj.parent('label').toggleClass('active');
+			 	}
+			 });
 			
 		}	
 		
