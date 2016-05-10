@@ -75,6 +75,7 @@
 						position:relative;
 						clear:both;
 
+						font-family:'HelveticaNeueW01-75Bold', Arial, Helvetica, sans-serif;
 						line-height:20px;
 
 						margin:0px auto;
@@ -114,8 +115,10 @@
 						position:relative;
 						clear:both;
 
+						font-size:14px;
+
 						margin:0px auto;
-						padding:5px 10px;
+						padding:6px 10px 7px;
 						border:0px none;
 
 						cursor:pointer;
